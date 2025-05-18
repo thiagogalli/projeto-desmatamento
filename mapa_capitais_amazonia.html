@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_28c5147fd644b041f479c87543bb96e8 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_28c5147fd644b041f479c87543bb96e8" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_28c5147fd644b041f479c87543bb96e8 = L.map(
+                "map_28c5147fd644b041f479c87543bb96e8",
+                {
+                    center: [-6.5, -65.0],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 5,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_15744d64e445c210318f83c2adb5ab5c = L.tileLayer(
+                "https://cartodb-basemaps-{s}.global.ssl.fastly.net/light_all/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors \u0026copy; \u003ca href=\"http://cartodb.com/attributions\"\u003eCartoDB\u003c/a\u003e, CartoDB \u003ca href =\"http://cartodb.com/attributions\"\u003eattributions\u003c/a\u003e", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_28c5147fd644b041f479c87543bb96e8);
+        
+    
+            var marker_4e58e9b50d5a8962e2f3d8f79043bdf4 = L.marker(
+                [-3.119, -60.021],
+                {}
+            ).addTo(map_28c5147fd644b041f479c87543bb96e8);
+        
+    
+        var popup_c48dadc5d1f1708fcec98492c82484d9 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0b8c2a118de753926cf6d630bb4a5184 = $(`<div id="html_0b8c2a118de753926cf6d630bb4a5184" style="width: 100.0%; height: 100.0%;">Manaus</div>`)[0];
+            popup_c48dadc5d1f1708fcec98492c82484d9.setContent(html_0b8c2a118de753926cf6d630bb4a5184);
+        
+
+        marker_4e58e9b50d5a8962e2f3d8f79043bdf4.bindPopup(popup_c48dadc5d1f1708fcec98492c82484d9)
+        ;
+
+        
+    
+    
+            var marker_1d6e5134ae889d118d1ec96da4bd72ad = L.marker(
+                [-9.974, -67.824],
+                {}
+            ).addTo(map_28c5147fd644b041f479c87543bb96e8);
+        
+    
+        var popup_c89dae4f1e66bcf02b4972b16a75afd0 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_fa17b69657710f1567efa86ca41820d8 = $(`<div id="html_fa17b69657710f1567efa86ca41820d8" style="width: 100.0%; height: 100.0%;">Rio Branco</div>`)[0];
+            popup_c89dae4f1e66bcf02b4972b16a75afd0.setContent(html_fa17b69657710f1567efa86ca41820d8);
+        
+
+        marker_1d6e5134ae889d118d1ec96da4bd72ad.bindPopup(popup_c89dae4f1e66bcf02b4972b16a75afd0)
+        ;
+
+        
+    
+    
+            var marker_21ecc4696bb5d3b8173436b1a734918b = L.marker(
+                [-8.761, -63.903],
+                {}
+            ).addTo(map_28c5147fd644b041f479c87543bb96e8);
+        
+    
+        var popup_7f08e43fb63e3a9715d33f3527cc2ee5 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b4e2db6fc97a6e047370bc8bf5fb1bbf = $(`<div id="html_b4e2db6fc97a6e047370bc8bf5fb1bbf" style="width: 100.0%; height: 100.0%;">Porto Velho</div>`)[0];
+            popup_7f08e43fb63e3a9715d33f3527cc2ee5.setContent(html_b4e2db6fc97a6e047370bc8bf5fb1bbf);
+        
+
+        marker_21ecc4696bb5d3b8173436b1a734918b.bindPopup(popup_7f08e43fb63e3a9715d33f3527cc2ee5)
+        ;
+
+        
+    
+</script>
+</html>
